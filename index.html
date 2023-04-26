@@ -1,6 +1,11 @@
-<link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
-<script defer src="https://pyscript.net/latest/pyscript.js"></script>
-
-<py-script> print("pass")</py-script>
-<py-script> PASS = '555'</py-script>
-<py-script> if input() == "PASS": print("yeay")</py-script>
+<script type="text/javascript">
+var password = "please";
+var x = prompt("Enter in the password "," ");
+if (x.toLowerCase() == password) {
+ alert("Come right in \n \n You've entered in the right password");
+ window.location = "indexon.htm";
+}
+else {
+ window.location = "bad.htm";
+}
+</script>
